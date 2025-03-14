@@ -18,7 +18,7 @@ public class Count_Vowels_Consonants {
 		
 		for(char ch : entered_text.toCharArray()) {
 			if(Character.isLetter(ch)) {
-				if(vowels.indexOf(ch)==-1) {
+				if(vowels.indexOf(ch)!=-1) {
 					vowels_count++;
 				}else {
 					consonant_count++;
