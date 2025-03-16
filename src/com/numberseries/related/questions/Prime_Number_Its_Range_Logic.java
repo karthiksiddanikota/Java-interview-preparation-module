@@ -16,14 +16,14 @@ public class Prime_Number_Its_Range_Logic {
 		} else {
 			System.out.println("Number is not prime");
 		}
-		
+
 		System.out.println("the prime number present in the range can be found below");
-		
-for(var i=2;i<entered_number;i++) {
-	if(isPrimeNumber(i)) {
-	System.out.print(i+" ");	
-	}
-}
+
+		for (var i = 2; i < entered_number; i++) {
+			if (isPrimeNumber(i)) {
+				System.out.print(i + " ");
+			}
+		}
 
 	}
 
